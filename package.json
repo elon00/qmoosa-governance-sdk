@@ -1,0 +1,32 @@
+{
+  "name": "@qmoosa/governance-sdk",
+  "version": "1.0.0",
+  "description": "QMOOSA Governance SDK — Client Library, Proposal Builder, Signed Intent Generator & Timelock Coordinator",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/sdk.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "governance",
+    "sdk",
+    "timelock",
+    "client",
+    "voting",
+    "typescript"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
